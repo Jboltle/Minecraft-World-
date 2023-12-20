@@ -10,7 +10,7 @@ PRIVATE_KEY_PATH = "C:/Users/Jon/Desktop/Minecraft-World-/minecraft-world-autoup
 REPO_NAME = "Minecraft-World-"
 
 # Local Minecraft server directory
-SERVER_DIR = "C:/Users/Jon/Desktop/Minecraft-World-/Minecraft Server"
+SERVER_DIR = "C:/Users/Jon/Desktop/Minecraft-World-"
 
 def commit_and_push_changes():
     # Commit and push changes to the local Git repository
