@@ -7,7 +7,7 @@ from datetime import datetime
 APP_ID = "722562"
 CLIENT_ID = "Iv1.8343edfd38855a86"
 PRIVATE_KEY_PATH = "/path/to/your/private-key.pem"
-REPO_NAME = "Minecraft-World-"
+REPO = "Minecraft-World-"
 
 # Local Minecraft server directory
 SERVER_DIR = "/path/to/your/minecraft/server"
@@ -23,9 +23,9 @@ def push_to_github():
     subprocess.run(["gh", "auth", "login", "--with-token"], input=open(PRIVATE_KEY_PATH).read().encode(), check=True)
 
     # Push changes to the GitHub repository
-    subprocess.run(["gh", "repo", "clone", REPO_NAME])
-    subprocess.run(["cp", "-r", SERVER_DIR + "/*", REPO_NAME])
-    subprocess.run(["gh", "repo", "upload", "--repo", REPO_NAME, "--branch", "main"])
+    subprocess.run(["gh", "repo", "clone", REPO])
+    subprocess.run(["cp", "-r", SERVER_DIR + "/*", REPO])
+    subprocess.run(["gh", "repo", "upload", "--repo", REPO, "--branch", "main"])
 
 def main():
     try:
