@@ -20,12 +20,35 @@ def commit_and_push_changes():
 
 def push_to_github():
     # Authenticate with GitHub App using the private key
-    subprocess.run(["gh", "auth", "login", "--with-token"], input=open(PRIVATE_KEY_PATH).read().encode(), check=True)
+    gh_auth_command = ["gh", "auth", "login", "--with-token"]
+    gh_upload_command = ["gh", "repo", "upload", "--repo", REPO_NAME, "--branch", "main"]
 
-    # Push changes to the GitHub repository
-    subprocess.run(["gh", "repo", "clone", REPO_NAME])
-    subprocess.run(["cp", "-r", SERVER_DIR + "/*", REPO_NAME])
-    subprocess.run(["gh", "repo", "upload", "--repo", REPO_NAME, "--branch", "main"])
+    try:
+        with open(PRIVATE_KEY_PATH, "r") as private_key_file:
+            private_key_content = private_key_file.read()
+
+        # Run GitHub authentication
+        run_command(gh_auth_command, cwd=SERVER_DIR, input_data=private_key_content)
+
+        # Clone repository, copy files, and upload to GitHub
+        run_command(["gh", "repo", "clone", REPO_NAME], cwd=SERVER_DIR)
+        run_command(["cp", "-r", f"{SERVER_DIR}/*", REPO_NAME], cwd=SERVER_DIR)
+        run_command(gh_upload_command, cwd=REPO_NAME)
+
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+def run_command(command, cwd=None, input_data=None):
+    """Run a command and return the output."""
+    try:
+        result = subprocess.run(command, cwd=cwd, capture_output=True, text=True, input=input_data, check=True)
+        return result.stdout.strip()
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing command: {e}")
+        return None
+
 
 def main():
     try:
@@ -34,7 +57,7 @@ def main():
             commit_and_push_changes()
             push_to_github()
             time.sleep(3600)  # Sleep for one hour
-
+            print(f"Sleeping for 1 hour")
     except KeyboardInterrupt:
         # Handle manual termination and push changes
         commit_and_push_changes()
