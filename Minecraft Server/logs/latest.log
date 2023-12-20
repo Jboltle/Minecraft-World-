@@ -1,33 +1,11 @@
-[21:02:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:02:44] [ServerMain/INFO]: Loaded 7 recipes
-[21:02:44] [ServerMain/INFO]: Loaded 1271 advancements
-[21:02:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[21:02:45] [Server thread/INFO]: Loading properties
-[21:02:45] [Server thread/INFO]: Default game type: SURVIVAL
-[21:02:45] [Server thread/INFO]: Generating keypair
-[21:02:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:02:45] [Server thread/INFO]: Using default channel type
-[21:02:45] [Server thread/INFO]: Preparing level "world"
-[21:02:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:02:47] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[21:02:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[21:02:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[21:02:47] [Worker-Main-14/INFO]: Preparing spawn area: 0%
-[21:02:48] [Worker-Main-10/INFO]: Preparing spawn area: 98%
-[21:02:48] [Server thread/INFO]: Time elapsed: 2005 ms
-[21:02:48] [Server thread/INFO]: Done (2.713s)! For help, type "help"
-[21:03:06] [User Authenticator #1/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
-[21:03:06] [Server thread/INFO]: Jboltle[/127.0.0.1:55209] logged in with entity id 191 at (-4.149902459408188, 70.0, 9.46015636446264)
-[21:03:06] [Server thread/INFO]: Jboltle joined the game
-[21:03:09] [Server thread/INFO]: Jboltle lost connection: Disconnected
-[21:03:09] [Server thread/INFO]: Jboltle left the game
-[21:03:12] [Server thread/INFO]: Stopping server
-[21:03:12] [Server thread/INFO]: Saving players
-[21:03:12] [Server thread/INFO]: Saving worlds
-[21:03:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:03:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:03:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:03:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:03:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:03:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:03:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:06:46] [Server thread/INFO]: Stopping the server
+[00:06:46] [Server thread/INFO]: Stopping server
+[00:06:46] [Server thread/INFO]: Saving players
+[00:06:46] [Server thread/INFO]: Saving worlds
+[00:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
