@@ -5,18 +5,27 @@ from datetime import datetime
 
 # GitHub App details
 APP_ID = "722562"
-CLIENT_ID = "Iv1.8343edfd38855a86"
 PRIVATE_KEY_PATH = "C:/Users/Jon/Desktop/Minecraft-World-/minecraft-world-autouploader.2023-12-19.private-key.pem"
 REPO_NAME = "Minecraft-World-"
 
 # Local Minecraft server directory
-SERVER_DIR = "C:/Users/Jon/Desktop/Minecraft-World-"
+SERVER_DIR = "C:/Users/Jon/Desktop/Minecraft-World-/Minecraft Server"
+SERVER_JAR = "server.jar"
+
+def run_command(command, cwd=None, input_data=None):
+    """Run a command and return the output."""
+    try:
+        result = subprocess.run(command, cwd=cwd, capture_output=True, text=True, input=input_data, check=True)
+        return result.stdout.strip()
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing command: {e}")
+        return None
 
 def commit_and_push_changes():
     # Commit and push changes to the local Git repository
-    subprocess.run(["git", "-C", SERVER_DIR, "add", "."])
-    subprocess.run(["git", "-C", SERVER_DIR, "commit", "-m", "Automated commit - {}".format(datetime.now())])
-    subprocess.run(["git", "-C", SERVER_DIR, "push"])
+    run_command(["git", "add", "."], cwd=SERVER_DIR)
+    run_command(["git", "commit", "-m", f"Automated commit - {datetime.now()}"], cwd=SERVER_DIR)
+    run_command(["git", "push"], cwd=SERVER_DIR)
 
 def push_to_github():
     # Authenticate with GitHub App using the private key
@@ -40,28 +49,35 @@ def push_to_github():
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
-def run_command(command, cwd=None, input_data=None):
-    """Run a command and return the output."""
-    try:
-        result = subprocess.run(command, cwd=cwd, capture_output=True, text=True, input=input_data, check=True)
-        return result.stdout.strip()
-    except subprocess.CalledProcessError as e:
-        print(f"Error executing command: {e}")
-        return None
-
-
 def main():
+    server_process = None
+
     try:
         while True:
-            # Commit and push changes every hour
-            commit_and_push_changes()
-            push_to_github()
-            time.sleep(3600)  # Sleep for one hour
-            print(f"Sleeping for 1 hour")
+            # Check if the Minecraft server process is running
+            if server_process is None or server_process.poll() is not None:
+                print("Minecraft server closed. Performing actions...")
+                commit_and_push_changes()
+                push_to_github()
+                server_process = None  # Reset server process
+
+            # If the server process is not set or has terminated, start it
+            if server_process is None:
+                print("Starting Minecraft server...")
+                server_process = subprocess.Popen(["java", "-jar", SERVER_JAR], cwd=SERVER_DIR)
+
+            # Check every minute (adjust as needed)
+            time.sleep(60)
+
     except KeyboardInterrupt:
         # Handle manual termination and push changes
         commit_and_push_changes()
         push_to_github()
+
+        # Terminate the Minecraft server process if it's still running
+        if server_process is not None and server_process.poll() is None:
+            server_process.terminate()
+            server_process.wait()
 
 if __name__ == "__main__":
     try:
