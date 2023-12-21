@@ -1,11 +1,18 @@
-[00:06:46] [Server thread/INFO]: Stopping the server
-[00:06:46] [Server thread/INFO]: Stopping server
-[00:06:46] [Server thread/INFO]: Saving players
-[00:06:46] [Server thread/INFO]: Saving worlds
-[00:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:06:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:06:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:22:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:22:34] [ServerMain/INFO]: Loaded 7 recipes
+[10:22:34] [ServerMain/INFO]: Loaded 1271 advancements
+[10:22:34] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[10:22:34] [Server thread/INFO]: Loading properties
+[10:22:34] [Server thread/INFO]: Default game type: SURVIVAL
+[10:22:34] [Server thread/INFO]: Generating keypair
+[10:22:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:22:35] [Server thread/INFO]: Using default channel type
+[10:22:35] [Server thread/INFO]: Preparing level "world"
+[10:22:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:22:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:22:37] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[10:22:37] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[10:22:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[10:22:37] [Worker-Main-15/INFO]: Preparing spawn area: 6%
+[10:22:38] [Server thread/INFO]: Time elapsed: 2360 ms
+[10:22:38] [Server thread/INFO]: Done (3.081s)! For help, type "help"
