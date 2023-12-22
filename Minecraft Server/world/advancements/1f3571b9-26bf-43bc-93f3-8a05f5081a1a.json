@@ -56,10 +56,12 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2023-12-22 14:56:36 -0600",
       "mutton": "2023-12-19 21:17:50 -0600",
       "apple": "2023-12-21 11:22:28 -0600",
       "chicken": "2023-12-19 21:19:34 -0600",
       "bread": "2023-12-19 22:00:02 -0600",
+      "cooked_chicken": "2023-12-22 14:44:44 -0600",
       "cooked_mutton": "2023-12-19 21:44:40 -0600",
       "cooked_cod": "2023-12-19 21:32:35 -0600",
       "cooked_beef": "2023-12-19 21:52:16 -0600",
@@ -1186,6 +1188,7 @@
       "minecraft:spider": "2023-12-21 11:57:40 -0600",
       "minecraft:zombie": "2023-12-19 22:08:07 -0600",
       "minecraft:creeper": "2023-12-21 11:46:02 -0600",
+      "minecraft:drowned": "2023-12-22 14:25:22 -0600",
       "minecraft:ravager": "2023-12-21 11:24:03 -0600"
     },
     "done": false
@@ -2079,15 +2082,123 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-12-21 13:27:54 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2023-12-21 13:32:49 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
     "criteria": {
-      "has_smithing_trim_template": "2023-12-21 13:27:54 -0600"
+      "has_pink_petals": "2023-12-22 14:36:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2023-12-22 14:45:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2023-12-22 14:45:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2023-12-22 14:45:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2023-12-22 14:47:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2023-12-22 14:47:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2023-12-22 14:47:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2023-12-22 14:47:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2023-12-22 14:47:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2023-12-22 14:47:53 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-12-22 14:57:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-12-22 14:57:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2023-12-22 14:57:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-12-22 14:57:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-12-22 14:57:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2023-12-22 14:57:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2023-12-22 15:19:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2023-12-22 15:19:55 -0600"
     },
     "done": true
   },
