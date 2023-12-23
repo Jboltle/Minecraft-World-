@@ -1,89 +1,28 @@
-[13:11:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:11:32] [ServerMain/INFO]: Loaded 7 recipes
-[13:11:32] [ServerMain/INFO]: Loaded 1271 advancements
-[13:11:34] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[13:11:34] [Server thread/INFO]: Loading properties
-[13:11:34] [Server thread/INFO]: Default game type: SURVIVAL
-[13:11:34] [Server thread/INFO]: Generating keypair
-[13:11:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:11:34] [Server thread/INFO]: Using default channel type
-[13:11:34] [Server thread/INFO]: Preparing level "world"
-[13:11:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:11:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:11:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:11:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:11:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[13:11:36] [Worker-Main-5/INFO]: Preparing spawn area: 14%
-[13:11:37] [Server thread/INFO]: Time elapsed: 2302 ms
-[13:11:37] [Server thread/INFO]: Done (2.980s)! For help, type "help"
-[13:17:16] [Server thread/INFO]: ChefMorgini (/10.0.0.123:61343) lost connection: Disconnected
-[13:19:08] [User Authenticator #1/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
-[13:19:08] [Server thread/INFO]: ChefMorgini[/10.0.0.123:61437] logged in with entity id 102 at (-546.3695214653916, 63.0, -1050.4502495040272)
-[13:19:08] [Server thread/INFO]: ChefMorgini joined the game
-[13:23:27] [User Authenticator #2/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
-[13:23:27] [Server thread/INFO]: Jboltle[/127.0.0.1:63526] logged in with entity id 1063 at (128.28903119899445, 64.0, -826.7357117620755)
-[13:23:27] [Server thread/INFO]: Jboltle joined the game
-[13:24:37] [Server thread/INFO]: <ChefMorgini> -546, 64, -1051
-[13:50:04] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
-[13:50:04] [Server thread/INFO]: ChefMorgini left the game
-[13:57:33] [User Authenticator #3/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
-[13:57:33] [Server thread/INFO]: ChefMorgini[/10.0.0.123:60245] logged in with entity id 11249 at (-544.3630992706362, 67.0, -1057.7664975910986)
-[13:57:33] [Server thread/INFO]: ChefMorgini joined the game
-[14:00:43] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
-[14:00:43] [Server thread/INFO]: ChefMorgini left the game
-[14:01:14] [Server thread/INFO]: ChefMorgini (/10.0.0.123:60271) lost connection: Disconnected
-[14:02:46] [User Authenticator #4/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
-[14:02:46] [Server thread/INFO]: ChefMorgini[/10.0.0.123:60437] logged in with entity id 12562 at (-552.4848034189072, 63.0, -1061.1349327971311)
-[14:02:46] [Server thread/INFO]: ChefMorgini joined the game
-[14:06:12] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
-[14:06:12] [Server thread/INFO]: ChefMorgini left the game
-[14:06:33] [User Authenticator #5/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
-[14:06:33] [Server thread/INFO]: ChefMorgini[/10.0.0.123:60476] logged in with entity id 13685 at (-549.0483906647697, 63.0, -1050.2301040911152)
-[14:06:33] [Server thread/INFO]: ChefMorgini joined the game
-[14:11:43] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
-[14:11:43] [Server thread/INFO]: ChefMorgini left the game
-[14:11:46] [User Authenticator #6/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
-[14:11:46] [Server thread/INFO]: ChefMorgini[/10.0.0.123:60506] logged in with entity id 14864 at (-537.7975605360302, 63.0, -1053.6760150675357)
-[14:11:46] [Server thread/INFO]: ChefMorgini joined the game
-[14:16:42] [Server thread/INFO]: ChefMorgini has made the advancement [Not Today, Thank You]
-[14:19:20] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.30171552957835956
-[14:19:20] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.2561940687562583
-[14:19:21] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.3378891089955687
-[14:19:21] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.27158283355606727
-[14:42:08] [Server thread/INFO]: <ChefMorgini> JON
-[14:50:28] [Server thread/INFO]: ChefMorgini has made the advancement [A Seedy Place]
-[14:54:28] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-549, y=72, z=-1122} hx{x=-551, y=70, z=-1124}
-[14:54:30] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-551, y=71, z=-1121} hx{x=-552, y=70, z=-1122}
-[14:54:30] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-551, y=71, z=-1121} hx{x=-552, y=70, z=-1122}
-[14:54:30] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-550, y=70, z=-1118} hx{x=-550, y=69, z=-1117}
-[14:54:30] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-550, y=70, z=-1118} hx{x=-550, y=69, z=-1117}
-[14:54:30] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-550, y=70, z=-1118} hx{x=-550, y=69, z=-1117}
-[14:54:31] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-548, y=71, z=-1119} hx{x=-547, y=70, z=-1119}
-[14:56:01] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-481, y=64, z=-1042} hx{x=-484, y=62, z=-1041}
-[14:56:01] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-481, y=64, z=-1042} hx{x=-484, y=62, z=-1041}
-[14:56:02] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-481, y=64, z=-1041} hx{x=-484, y=62, z=-1041}
-[14:56:02] [Server thread/WARN]: Mismatch in destroy block pos: hx{x=-481, y=64, z=-1041} hx{x=-484, y=62, z=-1041}
-[15:04:49] [Server thread/INFO]: Jboltle lost connection: Disconnected
-[15:04:49] [Server thread/INFO]: Jboltle left the game
-[15:04:58] [User Authenticator #7/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
-[15:04:58] [Server thread/INFO]: Jboltle[/127.0.0.1:64808] logged in with entity id 30010 at (-660.1846297635944, -15.0, -1137.7750542039894)
-[15:04:58] [Server thread/INFO]: Jboltle joined the game
-[15:07:07] [Server thread/INFO]: <Jboltle> -629 -21 -1071
-[15:10:24] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
-[15:10:24] [Server thread/INFO]: ChefMorgini left the game
-[15:25:48] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.3751219156283696
-[15:25:48] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.32645701058368104
-[15:25:48] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.2770944593723925
-[15:27:03] [Server thread/INFO]: Jboltle lost connection: Disconnected
-[15:27:03] [Server thread/INFO]: Jboltle left the game
-[15:27:16] [Server thread/INFO]: Stopping the server
-[15:27:17] [Server thread/INFO]: Stopping server
-[15:27:17] [Server thread/INFO]: Saving players
-[15:27:17] [Server thread/INFO]: Saving worlds
-[15:27:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:27:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:27:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:27:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:27:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:27:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:27:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:27:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:27:57] [ServerMain/INFO]: Loaded 7 recipes
+[15:27:57] [ServerMain/INFO]: Loaded 1271 advancements
+[15:27:58] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:27:58] [Server thread/INFO]: Loading properties
+[15:27:58] [Server thread/INFO]: Default game type: SURVIVAL
+[15:27:58] [Server thread/INFO]: Generating keypair
+[15:27:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:27:58] [Server thread/INFO]: Using default channel type
+[15:27:58] [Server thread/INFO]: Preparing level "world"
+[15:27:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:28:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:28:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:28:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:28:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[15:28:01] [Worker-Main-11/INFO]: Preparing spawn area: 46%
+[15:28:01] [Server thread/INFO]: Time elapsed: 2173 ms
+[15:28:01] [Server thread/INFO]: Done (2.892s)! For help, type "help"
+[15:28:01] [Server thread/INFO]: Stopping server
+[15:28:01] [Server thread/INFO]: Saving players
+[15:28:01] [Server thread/INFO]: Saving worlds
+[15:28:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:28:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:28:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:28:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:28:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:28:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:28:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
