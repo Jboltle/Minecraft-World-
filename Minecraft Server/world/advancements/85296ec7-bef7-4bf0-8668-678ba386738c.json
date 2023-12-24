@@ -1469,12 +1469,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2023-12-22 14:50:28 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2023-12-22 14:40:00 -0600"
@@ -1484,6 +1478,12 @@
   "minecraft:recipes/building_blocks/stripped_spruce_wood": {
     "criteria": {
       "has_log": "2023-12-22 14:40:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-12-22 14:50:28 -0600"
     },
     "done": true
   },
