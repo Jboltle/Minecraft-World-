@@ -1,39 +1,29 @@
-[13:37:59] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:38:00] [ServerMain/INFO]: Loaded 7 recipes
-[13:38:00] [ServerMain/INFO]: Loaded 1271 advancements
-[13:38:01] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[13:38:01] [Server thread/INFO]: Loading properties
-[13:38:01] [Server thread/INFO]: Default game type: SURVIVAL
-[13:38:01] [Server thread/INFO]: Generating keypair
-[13:38:01] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:38:01] [Server thread/INFO]: Using default channel type
-[13:38:01] [Server thread/INFO]: Preparing level "world"
-[13:38:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:38:03] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:38:03] [Worker-Main-12/INFO]: Preparing spawn area: 0%
-[13:38:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:38:04] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[13:38:04] [Worker-Main-14/INFO]: Preparing spawn area: 31%
-[13:38:04] [Server thread/INFO]: Time elapsed: 2253 ms
-[13:38:04] [Server thread/INFO]: Done (2.944s)! For help, type "help"
-[13:38:35] [User Authenticator #1/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
-[13:38:35] [Server thread/INFO]: ChefMorgini[/10.0.0.123:53163] logged in with entity id 103 at (-542.4451071971052, 63.0, -1052.237500011921)
-[13:38:35] [Server thread/INFO]: ChefMorgini joined the game
-[13:40:01] [User Authenticator #2/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
-[13:40:01] [Server thread/INFO]: Jboltle[/127.0.0.1:50119] logged in with entity id 584 at (-550.6446922694107, 63.84375, -1051.8199366442152)
-[13:40:01] [Server thread/INFO]: Jboltle joined the game
-[13:42:15] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
-[13:42:15] [Server thread/INFO]: ChefMorgini left the game
-[13:47:22] [Server thread/INFO]: Jboltle lost connection: Disconnected
-[13:47:22] [Server thread/INFO]: Jboltle left the game
-[13:47:27] [Server thread/INFO]: Stopping the server
-[13:47:27] [Server thread/INFO]: Stopping server
-[13:47:27] [Server thread/INFO]: Saving players
-[13:47:27] [Server thread/INFO]: Saving worlds
-[13:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:47:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:47:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:32:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:32:23] [ServerMain/ERROR]: Failed to start the minecraft server
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
+	at sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:68) ~[?:?]
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:132) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:76) ~[?:?]
+	at sun.nio.ch.IOUtil.write(IOUtil.java:67) ~[?:?]
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:288) ~[?:?]
+	at atu.a(SourceFile:37) ~[server-1.20.4.jar:?]
+	at egm$c.<i[15:32:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[15:32:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:32:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:32:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:32:24] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[15:32:25] [Worker-Main-5/INFO]: Preparing spawn area: 94%
+[15:32:25] [Server thread/INFO]: Time elapsed: 2522 ms
+[15:32:25] [Server thread/INFO]: Done (3.280s)! For help, type "help"
+[15:32:27] [Server thread/INFO]: Stopping the server
+[15:32:28] [Server thread/INFO]: Stopping server
+[15:32:28] [Server thread/INFO]: Saving players
+[15:32:28] [Server thread/INFO]: Saving worlds
+[15:32:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:32:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:32:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:32:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:32:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:32:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:32:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

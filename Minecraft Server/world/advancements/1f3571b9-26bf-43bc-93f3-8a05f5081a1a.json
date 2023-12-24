@@ -16,6 +16,7 @@
       "minecraft:stony_shore": "2023-12-19 21:52:30 -0600",
       "minecraft:snowy_plains": "2023-12-21 13:08:57 -0600",
       "minecraft:snowy_taiga": "2023-12-21 13:09:06 -0600",
+      "minecraft:dripstone_caves": "2023-12-24 14:17:18 -0600",
       "minecraft:ice_spikes": "2023-12-21 13:13:03 -0600",
       "minecraft:old_growth_birch_forest": "2023-12-19 21:04:29 -0600",
       "minecraft:frozen_ocean": "2023-12-21 13:14:27 -0600",
@@ -58,14 +59,15 @@
     "criteria": {
       "cooked_porkchop": "2023-12-22 14:56:36 -0600",
       "mutton": "2023-12-19 21:17:50 -0600",
-      "apple": "2023-12-21 11:22:28 -0600",
       "chicken": "2023-12-19 21:19:34 -0600",
       "bread": "2023-12-19 22:00:02 -0600",
-      "cooked_chicken": "2023-12-22 14:44:44 -0600",
+      "cookie": "2023-12-24 15:20:43 -0600",
       "cooked_mutton": "2023-12-19 21:44:40 -0600",
-      "cooked_cod": "2023-12-19 21:32:35 -0600",
       "cooked_beef": "2023-12-19 21:52:16 -0600",
       "beef": "2023-12-19 21:10:25 -0600",
+      "apple": "2023-12-21 11:22:28 -0600",
+      "cooked_chicken": "2023-12-22 14:44:44 -0600",
+      "cooked_cod": "2023-12-19 21:32:35 -0600",
       "cooked_salmon": "2023-12-19 21:28:03 -0600",
       "carrot": "2023-12-19 21:20:49 -0600"
     },
@@ -1185,11 +1187,14 @@
     "criteria": {
       "minecraft:pillager": "2023-12-21 11:03:25 -0600",
       "minecraft:skeleton": "2023-12-19 21:48:15 -0600",
+      "minecraft:enderman": "2023-12-24 14:05:30 -0600",
       "minecraft:spider": "2023-12-21 11:57:40 -0600",
       "minecraft:zombie": "2023-12-19 22:08:07 -0600",
       "minecraft:creeper": "2023-12-21 11:46:02 -0600",
       "minecraft:drowned": "2023-12-22 14:25:22 -0600",
-      "minecraft:ravager": "2023-12-21 11:24:03 -0600"
+      "minecraft:zombie_villager": "2023-12-24 14:41:42 -0600",
+      "minecraft:ravager": "2023-12-21 11:24:03 -0600",
+      "minecraft:slime": "2023-12-24 13:54:19 -0600"
     },
     "done": false
   },
@@ -2253,6 +2258,72 @@
   "minecraft:recipes/decorations/dark_oak_fence": {
     "criteria": {
       "has_planks": "2023-12-24 13:46:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2023-12-24 14:56:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-12-24 13:57:20 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2023-12-24 14:56:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2023-12-24 14:56:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-12-24 13:51:03 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-12-24 14:59:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2023-12-24 13:55:43 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2023-12-24 14:16:34 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2023-12-24 14:17:26 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-12-24 14:59:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2023-12-24 13:51:03 -0600"
     },
     "done": true
   },
