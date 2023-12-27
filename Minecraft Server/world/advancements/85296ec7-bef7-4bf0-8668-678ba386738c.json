@@ -119,10 +119,12 @@
       "apple": "2023-12-21 11:32:30 -0600",
       "chicken": "2023-12-19 22:25:40 -0600",
       "bread": "2023-12-19 21:25:08 -0600",
+      "cookie": "2023-12-26 23:34:12 -0600",
       "cooked_mutton": "2023-12-22 14:52:35 -0600",
       "potato": "2023-12-21 11:32:26 -0600",
       "sweet_berries": "2023-12-19 22:22:32 -0600",
-      "porkchop": "2023-12-19 22:27:38 -0600"
+      "porkchop": "2023-12-19 22:27:38 -0600",
+      "carrot": "2023-12-26 22:53:15 -0600"
     },
     "done": false
   },
@@ -1147,7 +1149,8 @@
       "minecraft:enderman": "2023-12-21 11:28:14 -0600",
       "minecraft:spider": "2023-12-22 13:59:09 -0600",
       "minecraft:zombie": "2023-12-19 22:29:14 -0600",
-      "minecraft:creeper": "2023-12-21 12:45:18 -0600"
+      "minecraft:creeper": "2023-12-21 12:45:18 -0600",
+      "minecraft:ravager": "2023-12-26 22:58:43 -0600"
     },
     "done": false
   },
@@ -1484,6 +1487,38 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2023-12-22 14:50:28 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2023-12-26 23:05:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:chicken": "2023-12-26 22:42:15 -0600",
+      "minecraft:pig": "2023-12-26 22:46:45 -0600",
+      "minecraft:sheep": "2023-12-26 22:46:35 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-12-26 22:39:02 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2023-12-26 22:59:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2023-12-26 22:42:15 -0600"
     },
     "done": true
   },
