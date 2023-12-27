@@ -1,0 +1,31 @@
+[00:50:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:50:45] [ServerMain/INFO]: Loaded 7 recipes
+[00:50:45] [ServerMain/INFO]: Loaded 1271 advancements
+[00:50:45] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[00:50:45] [Server thread/INFO]: Loading properties
+[00:50:45] [Server thread/INFO]: Default game type: SURVIVAL
+[00:50:45] [Server thread/INFO]: Generating keypair
+[00:50:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:50:45] [Server thread/INFO]: Using default channel type
+[00:50:46] [Server thread/INFO]: Preparing level "world"
+[00:50:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:50:48] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[00:50:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:50:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:50:48] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[00:50:48] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[00:50:49] [Worker-Main-2/INFO]: Preparing spawn area: 75%
+[00:50:49] [Server thread/INFO]: Time elapsed: 2599 ms
+[00:50:49] [Server thread/INFO]: Done (3.364s)! For help, type "help"
+[00:51:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:51:02] [Server thread/INFO]:  c:; cd 'c:\Users\Jon\Desktop\Minecraft-World-'; & 'C:\Users\Jon\AppData\Local\Microsoft\WindowsApps\python3.11.exe' 'c:\Users\Jon\.vscode\extensions\ms-python.python-2023.22.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '56019' '--' 'C:\Users\Jon\Desktop\Minecraft-World-\MinecraftWorld.py' <--[HERE]
+[00:51:05] [Server thread/INFO]: Stopping server
+[00:51:05] [Server thread/INFO]: Saving players
+[00:51:05] [Server thread/INFO]: Saving worlds
+[00:51:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:51:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:51:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:51:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:51:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:51:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:51:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
