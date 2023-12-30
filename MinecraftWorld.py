@@ -61,13 +61,13 @@ def main():
                 push_to_github()
                 server_process = None  # Reset server process
 
-            # If the server process is not set or has terminated, start it
+            # Start the Minecraft server if it is not running
             if server_process is None:
                 print("Starting Minecraft server...")
                 server_process = subprocess.Popen(["java", "-jar", SERVER_JAR], cwd=SERVER_DIR)
+                time.sleep(10)  # Wait for the server to start
 
-            # Check every minute (adjust as needed)
-            time.sleep(60)
+            time.sleep(5)  # Wait for 5 seconds before checking again
 
     except KeyboardInterrupt:
         # Handle manual termination and push changes
