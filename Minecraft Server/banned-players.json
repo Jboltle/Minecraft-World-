@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "45294351-c8ff-42e6-8890-8cd2af98d1e7",
+    "name": "Help",
+    "created": "2023-12-29 23:20:45 -0600",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]

@@ -1,0 +1,157 @@
+[22:43:19] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:43:20] [ServerMain/INFO]: Loaded 7 recipes
+[22:43:20] [ServerMain/INFO]: Loaded 1271 advancements
+[22:43:21] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[22:43:21] [Server thread/INFO]: Loading properties
+[22:43:21] [Server thread/INFO]: Default game type: SURVIVAL
+[22:43:21] [Server thread/INFO]: Generating keypair
+[22:43:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:43:21] [Server thread/INFO]: Using default channel type
+[22:43:22] [Server thread/INFO]: Preparing level "world"
+[22:43:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:43:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:43:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:43:24] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[22:43:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[22:43:24] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[22:43:25] [Worker-Main-1/INFO]: Preparing spawn area: 55%
+[22:43:25] [Server thread/INFO]: Time elapsed: 2635 ms
+[22:43:25] [Server thread/INFO]: Done (3.373s)! For help, type "help"
+[22:44:24] [User Authenticator #1/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[22:44:25] [Server thread/INFO]: Jboltle[/127.0.0.1:63883] logged in with entity id 103 at (-541.437875531973, 63.0, -1042.4010820475485)
+[22:44:25] [Server thread/INFO]: Jboltle joined the game
+[22:46:55] [User Authenticator #2/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[22:46:56] [Server thread/INFO]: ChefMorgini[/10.0.0.123:49812] logged in with entity id 887 at (-561.0378940856932, 63.0, -1037.7923148322425)
+[22:46:56] [Server thread/INFO]: ChefMorgini joined the game
+[22:48:06] [Server thread/INFO]: <Jboltle> nigger
+[23:01:38] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.29586394606917565
+[23:05:01] [Server thread/INFO]: Jboltle has made the advancement [Who's the Pillager Now?]
+[23:15:02] [Server thread/INFO]: ChefMorgini fell from a high place
+[23:17:23] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[23:17:23] [Server thread/INFO]: Jboltle left the game
+[23:17:41] [User Authenticator #3/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[23:17:41] [Server thread/INFO]: Jboltle[/127.0.0.1:64764] logged in with entity id 9760 at (-553.2889505259884, 63.07457598217986, -1048.65637294648)
+[23:17:41] [Server thread/INFO]: Jboltle joined the game
+[23:17:44] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[23:17:44] [Server thread/INFO]: Jboltle left the game
+[23:17:55] [Server thread/INFO]: Kicked ChefMorgini: Kicked by an operator
+[23:17:55] [Server thread/INFO]: ChefMorgini lost connection: Kicked by an operator
+[23:17:55] [Server thread/INFO]: ChefMorgini left the game
+[23:17:57] [User Authenticator #4/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[23:17:57] [Server thread/INFO]: Jboltle[/127.0.0.1:64773] logged in with entity id 9791 at (-549.2542268108484, 63.0, -1055.699999988079)
+[23:17:57] [Server thread/INFO]: Jboltle joined the game
+[23:18:05] [User Authenticator #5/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:18:06] [Server thread/INFO]: ChefMorgini[/10.0.0.123:55140] logged in with entity id 10071 at (-556.857562462946, 63.0, -1056.4286240335066)
+[23:18:06] [Server thread/INFO]: ChefMorgini joined the game
+[23:18:22] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[23:18:22] [Server thread/INFO]: Jboltle left the game
+[23:18:29] [Server thread/INFO]: Kicked ChefMorgini: Kicked by an operator
+[23:18:29] [Server thread/INFO]: ChefMorgini lost connection: Kicked by an operator
+[23:18:29] [Server thread/INFO]: ChefMorgini left the game
+[23:18:32] [User Authenticator #6/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[23:18:32] [Server thread/INFO]: Jboltle[/127.0.0.1:64791] logged in with entity id 10110 at (-528.3905750669161, 63.0, -1045.5513370071742)
+[23:18:32] [Server thread/INFO]: Jboltle joined the game
+[23:18:33] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[23:18:33] [Server thread/INFO]: Jboltle left the game
+[23:18:34] [User Authenticator #7/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:18:34] [Server thread/INFO]: ChefMorgini[/10.0.0.123:55144] logged in with entity id 10358 at (-529.8572334307064, 64.0, -1046.5060662819471)
+[23:18:34] [Server thread/INFO]: ChefMorgini joined the game
+[23:18:40] [Server thread/INFO]: Banned ChefMorgini: Banned by an operator.
+[23:18:40] [Server thread/INFO]: ChefMorgini lost connection: You are banned from this server
+[23:18:40] [Server thread/INFO]: ChefMorgini left the game
+[23:18:42] [User Authenticator #8/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[23:18:42] [Server thread/INFO]: Jboltle[/127.0.0.1:64806] logged in with entity id 10610 at (-528.3905750669161, 63.0, -1045.5513370071742)
+[23:18:42] [Server thread/INFO]: Jboltle joined the game
+[23:18:43] [User Authenticator #9/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:18:44] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55151): You are banned from this server.
+Reason: Banned by an operator.
+[23:18:44] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55151) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:18:44] [Server thread/WARN]: handleDisconnection() called twice
+[23:18:45] [User Authenticator #10/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:18:45] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55153): You are banned from this server.
+Reason: Banned by an operator.
+[23:18:45] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55153) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:18:45] [Server thread/WARN]: handleDisconnection() called twice
+[23:18:47] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55154) lost connection: Disconnected
+[23:18:51] [User Authenticator #11/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:18:51] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55156): You are banned from this server.
+Reason: Banned by an operator.
+[23:18:51] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55156) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:18:51] [Server thread/WARN]: handleDisconnection() called twice
+[23:18:53] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55158) lost connection: Disconnected
+[23:18:56] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55159) lost connection: Disconnected
+[23:18:58] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55161) lost connection: Disconnected
+[23:19:01] [User Authenticator #12/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:19:01] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55162): You are banned from this server.
+Reason: Banned by an operator.
+[23:19:01] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55162) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:19:01] [Server thread/WARN]: handleDisconnection() called twice
+[23:19:02] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55163) lost connection: Disconnected
+[23:19:04] [User Authenticator #13/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:19:04] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55164): You are banned from this server.
+Reason: Banned by an operator.
+[23:19:04] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55164) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:19:04] [Server thread/WARN]: handleDisconnection() called twice
+[23:19:06] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55165) lost connection: Disconnected
+[23:19:27] [User Authenticator #14/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:19:27] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55169): You are banned from this server.
+Reason: Banned by an operator.
+[23:19:27] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55169) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:19:27] [Server thread/WARN]: handleDisconnection() called twice
+[23:19:29] [User Authenticator #15/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:19:29] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55171): You are banned from this server.
+Reason: Banned by an operator.
+[23:19:29] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55171) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:19:29] [Server thread/WARN]: handleDisconnection() called twice
+[23:19:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[23:19:43] [Server thread/INFO]: unban chefmorgini<--[HERE]
+[23:19:52] [Server thread/INFO]: Incorrect argument for command
+[23:19:52] [Server thread/INFO]: whitelist chefmorgini<--[HERE]
+[23:20:00] [User Authenticator #16/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:20:00] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55172): You are banned from this server.
+Reason: Banned by an operator.
+[23:20:00] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55172) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:20:00] [Server thread/WARN]: handleDisconnection() called twice
+[23:20:19] [User Authenticator #17/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:20:19] [Server thread/INFO]: Disconnecting ChefMorgini (/10.0.0.123:55185): You are banned from this server.
+Reason: Banned by an operator.
+[23:20:19] [Server thread/INFO]: ChefMorgini (/10.0.0.123:55185) lost connection: You are banned from this server.
+Reason: Banned by an operator.
+[23:20:19] [Server thread/WARN]: handleDisconnection() called twice
+[23:20:33] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[23:20:33] [Server thread/INFO]: unban ChefMorgini<--[HERE]
+[23:20:40] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[23:20:40] [Server thread/INFO]: ban?<--[HERE]
+[23:20:45] [Server thread/INFO]: Banned Help: Banned by an operator.
+[23:20:50] [Server thread/INFO]: That player does not exist
+[23:21:07] [Server thread/INFO]: Unbanned ChefMorgini
+[23:21:26] [User Authenticator #18/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[23:21:27] [Server thread/INFO]: ChefMorgini[/10.0.0.123:55190] logged in with entity id 11199 at (-532.1253014986646, 63.0, -1046.5923892170617)
+[23:21:27] [Server thread/INFO]: ChefMorgini joined the game
+[23:23:01] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[23:23:01] [Server thread/INFO]: Jboltle left the game
+[23:23:11] [User Authenticator #19/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[23:23:11] [Server thread/INFO]: Jboltle[/127.0.0.1:64939] logged in with entity id 11596 at (-543.4629322510638, 69.33303721234965, -1107.699999988079)
+[23:23:11] [Server thread/INFO]: Jboltle joined the game
+[23:23:29] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[23:23:29] [Server thread/INFO]: Jboltle left the game
+[23:23:38] [Server thread/INFO]: Stopping server
+[23:23:38] [Server thread/INFO]: Saving players
+[23:23:38] [Server thread/INFO]: ChefMorgini lost connection: Server closed
+[23:23:38] [Server thread/INFO]: ChefMorgini left the game
+[23:23:38] [Server thread/INFO]: Saving worlds
+[23:23:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:23:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:23:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:23:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:23:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:23:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:23:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
