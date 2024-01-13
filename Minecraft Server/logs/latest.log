@@ -1,1 +1,34 @@
-[21:48:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:45:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:45:24] [ServerMain/INFO]: Loaded 7 recipes
+[15:45:24] [ServerMain/INFO]: Loaded 1271 advancements
+[15:45:25] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[15:45:25] [Server thread/INFO]: Loading properties
+[15:45:25] [Server thread/INFO]: Default game type: SURVIVAL
+[15:45:25] [Server thread/INFO]: Generating keypair
+[15:45:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:45:25] [Server thread/INFO]: Using default channel type
+[15:45:25] [Server thread/INFO]: Preparing level "world"
+[15:45:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:45:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:45:28] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[15:45:28] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[15:45:28] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[15:45:28] [Worker-Main-2/INFO]: Preparing spawn area: 8%
+[15:45:28] [Server thread/INFO]: Time elapsed: 2316 ms
+[15:45:28] [Server thread/INFO]: Done (3.016s)! For help, type "help"
+[15:47:34] [User Authenticator #1/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[15:47:34] [Server thread/INFO]: ChefMorgini[/10.0.0.123:54851] logged in with entity id 104 at (-550.7408253195011, 63.0, -1054.0085576150757)
+[15:47:34] [Server thread/INFO]: ChefMorgini joined the game
+[16:11:04] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[16:11:04] [Server thread/INFO]: ChefMorgini left the game
+[20:36:28] [Server thread/INFO]: Stopping the server
+[20:36:28] [Server thread/INFO]: Stopping server
+[20:36:28] [Server thread/INFO]: Saving players
+[20:36:28] [Server thread/INFO]: Saving worlds
+[20:36:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:36:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:36:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:36:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
