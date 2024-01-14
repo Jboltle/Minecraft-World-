@@ -1,34 +1,485 @@
-[14:00:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:00:17] [ServerMain/INFO]: Loaded 7 recipes
-[14:00:17] [ServerMain/INFO]: Loaded 1271 advancements
-[14:00:17] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[14:00:17] [Server thread/INFO]: Loading properties
-[14:00:17] [Server thread/INFO]: Default game type: SURVIVAL
-[14:00:17] [Server thread/INFO]: Generating keypair
-[14:00:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:00:18] [Server thread/INFO]: Using default channel type
-[14:00:18] [Server thread/INFO]: Preparing level "world"
-[14:00:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:00:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[14:00:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[14:00:20] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[14:00:20] [Worker-Main-13/INFO]: Preparing spawn area: 0%
-[14:00:20] [Worker-Main-3/INFO]: Preparing spawn area: 85%
-[14:00:21] [Server thread/INFO]: Time elapsed: 2067 ms
-[14:00:21] [Server thread/INFO]: Done (2.742s)! For help, type "help"
-[14:00:21] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[14:00:21] [Server thread/INFO]: & C:/Users/Jon/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/Jon/Desktop/Minecraft-World-/MinecraftWorld.py<--[HERE]
-[14:01:31] [Server thread/INFO]: Jboltle (/127.0.0.1:64664) lost connection: Disconnected
-[14:01:43] [Server thread/INFO]: Jboltle (/127.0.0.1:64676) lost connection: Disconnected
-[14:02:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[14:02:01] [Server thread/INFO]: STOP<--[HERE]
-[14:02:03] [Server thread/INFO]: Stopping server
-[14:02:03] [Server thread/INFO]: Saving players
-[14:02:03] [Server thread/INFO]: Saving worlds
-[14:02:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:02:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14:02:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14:02:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:02:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:02:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:02:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:02:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:02:21] [ServerMain/INFO]: Loaded 7 recipes
+[14:02:21] [ServerMain/INFO]: Loaded 1271 advancements
+[14:02:22] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[14:02:22] [Server thread/INFO]: Loading properties
+[14:02:22] [Server thread/INFO]: Default game type: SURVIVAL
+[14:02:22] [Server thread/INFO]: Generating keypair
+[14:02:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:02:22] [Server thread/INFO]: Using default channel type
+[14:02:22] [Server thread/INFO]: Preparing level "world"
+[14:02:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:02:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:02:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:02:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:02:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:02:25] [Worker-Main-8/INFO]: Preparing spawn area: 44%
+[14:02:25] [Server thread/INFO]: Time elapsed: 2161 ms
+[14:02:25] [Server thread/INFO]: Done (2.836s)! For help, type "help"
+[14:02:25] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to Connect timed out
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:108) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.52.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.52.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:551) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:534) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:639) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266) ~[?:?]
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1287) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529) ~[?:?]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308) ~[?:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:84) ~[authlib-6.0.52.jar:?]
+	... 9 more
+[14:03:14] [Server thread/INFO]: Jboltle (/127.0.0.1:64745) lost connection: Disconnected
+[14:03:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:03:25] [Server thread/INFO]: & C:/Users/Jon/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/Jon/Desktop/Minecraft-World-/MinecraftWorld.py<--[HERE]
+[14:03:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:03:57] [Server thread/INFO]: CLOSE<--[HERE]
+[14:04:00] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:04:00] [Server thread/INFO]: SERVER CLOSE<--[HERE]
+[14:04:03] [Server thread/INFO]: /advancement (grant|revoke)
+[14:04:03] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[14:04:03] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[14:04:03] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[14:04:03] [Server thread/INFO]: /clear [<targets>]
+[14:04:03] [Server thread/INFO]: /clone (<begin>|from)
+[14:04:03] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[14:04:03] [Server thread/INFO]: /data (merge|get|remove|modify)
+[14:04:03] [Server thread/INFO]: /datapack (enable|disable|list)
+[14:04:03] [Server thread/INFO]: /debug (start|stop|function)
+[14:04:03] [Server thread/INFO]: /defaultgamemode <gamemode>
+[14:04:03] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[14:04:03] [Server thread/INFO]: /effect (clear|give)
+[14:04:03] [Server thread/INFO]: /me <action>
+[14:04:03] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[14:04:03] [Server thread/INFO]: /experience (add|set|query)
+[14:04:03] [Server thread/INFO]: /xp -> experience
+[14:04:03] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[14:04:03] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[14:04:03] [Server thread/INFO]: /forceload (add|remove|query)
+[14:04:03] [Server thread/INFO]: /function <name> [<arguments>|with]
+[14:04:03] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[14:04:03] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[14:04:03] [Server thread/INFO]: /give <targets> <item> [<count>]
+[14:04:03] [Server thread/INFO]: /help [<command>]
+[14:04:03] [Server thread/INFO]: /item (replace|modify)
+[14:04:03] [Server thread/INFO]: /kick <targets> [<reason>]
+[14:04:03] [Server thread/INFO]: /kill [<targets>]
+[14:04:03] [Server thread/INFO]: /list [uuids]
+[14:04:03] [Server thread/INFO]: /locate (structure|biome|poi)
+[14:04:03] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[14:04:03] [Server thread/INFO]: /msg <targets> <message>
+[14:04:03] [Server thread/INFO]: /tell -> msg
+[14:04:03] [Server thread/INFO]: /w -> msg
+[14:04:03] [Server thread/INFO]: /particle <name> [<pos>]
+[14:04:03] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[14:04:03] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[14:04:03] [Server thread/INFO]: /random (value|roll|reset)
+[14:04:03] [Server thread/INFO]: /reload
+[14:04:03] [Server thread/INFO]: /recipe (give|take)
+[14:04:03] [Server thread/INFO]: /return (<value>|fail|run)
+[14:04:03] [Server thread/INFO]: /ride <target> (mount|dismount)
+[14:04:03] [Server thread/INFO]: /say <message>
+[14:04:03] [Server thread/INFO]: /schedule (function|clear)
+[14:04:03] [Server thread/INFO]: /scoreboard (objectives|players)
+[14:04:03] [Server thread/INFO]: /seed
+[14:04:03] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[14:04:03] [Server thread/INFO]: /spawnpoint [<targets>]
+[14:04:03] [Server thread/INFO]: /setworldspawn [<pos>]
+[14:04:03] [Server thread/INFO]: /spectate [<target>]
+[14:04:03] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[14:04:03] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:04:03] [Server thread/INFO]: /summon <entity> [<pos>]
+[14:04:03] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[14:04:03] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[14:04:03] [Server thread/INFO]: /teammsg <message>
+[14:04:03] [Server thread/INFO]: /tm -> teammsg
+[14:04:03] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[14:04:03] [Server thread/INFO]: /tp -> teleport
+[14:04:03] [Server thread/INFO]: /tellraw <targets> <message>
+[14:04:03] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[14:04:03] [Server thread/INFO]: /time (set|add|query)
+[14:04:03] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[14:04:03] [Server thread/INFO]: /trigger <objective> [add|set]
+[14:04:03] [Server thread/INFO]: /weather (clear|rain|thunder)
+[14:04:03] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[14:04:03] [Server thread/INFO]: /jfr (start|stop)
+[14:04:03] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[14:04:03] [Server thread/INFO]: /banlist [ips|players]
+[14:04:03] [Server thread/INFO]: /ban <targets> [<reason>]
+[14:04:03] [Server thread/INFO]: /deop <targets>
+[14:04:03] [Server thread/INFO]: /op <targets>
+[14:04:03] [Server thread/INFO]: /pardon <targets>
+[14:04:03] [Server thread/INFO]: /pardon-ip <target>
+[14:04:03] [Server thread/INFO]: /perf (start|stop)
+[14:04:03] [Server thread/INFO]: /save-all [flush]
+[14:04:03] [Server thread/INFO]: /save-off
+[14:04:03] [Server thread/INFO]: /save-on
+[14:04:03] [Server thread/INFO]: /setidletimeout <minutes>
+[14:04:03] [Server thread/INFO]: /stop
+[14:04:03] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[14:04:07] [Server thread/INFO]: /advancement (grant|revoke)
+[14:04:07] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[14:04:07] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[14:04:07] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[14:04:07] [Server thread/INFO]: /clear [<targets>]
+[14:04:07] [Server thread/INFO]: /clone (<begin>|from)
+[14:04:07] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[14:04:07] [Server thread/INFO]: /data (merge|get|remove|modify)
+[14:04:07] [Server thread/INFO]: /datapack (enable|disable|list)
+[14:04:07] [Server thread/INFO]: /debug (start|stop|function)
+[14:04:07] [Server thread/INFO]: /defaultgamemode <gamemode>
+[14:04:07] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[14:04:07] [Server thread/INFO]: /effect (clear|give)
+[14:04:07] [Server thread/INFO]: /me <action>
+[14:04:07] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[14:04:07] [Server thread/INFO]: /experience (add|set|query)
+[14:04:07] [Server thread/INFO]: /xp -> experience
+[14:04:07] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[14:04:07] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[14:04:07] [Server thread/INFO]: /forceload (add|remove|query)
+[14:04:07] [Server thread/INFO]: /function <name> [<arguments>|with]
+[14:04:07] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[14:04:07] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[14:04:07] [Server thread/INFO]: /give <targets> <item> [<count>]
+[14:04:07] [Server thread/INFO]: /help [<command>]
+[14:04:07] [Server thread/INFO]: /item (replace|modify)
+[14:04:07] [Server thread/INFO]: /kick <targets> [<reason>]
+[14:04:07] [Server thread/INFO]: /kill [<targets>]
+[14:04:07] [Server thread/INFO]: /list [uuids]
+[14:04:07] [Server thread/INFO]: /locate (structure|biome|poi)
+[14:04:07] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[14:04:07] [Server thread/INFO]: /msg <targets> <message>
+[14:04:07] [Server thread/INFO]: /tell -> msg
+[14:04:07] [Server thread/INFO]: /w -> msg
+[14:04:07] [Server thread/INFO]: /particle <name> [<pos>]
+[14:04:07] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[14:04:07] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[14:04:07] [Server thread/INFO]: /random (value|roll|reset)
+[14:04:07] [Server thread/INFO]: /reload
+[14:04:07] [Server thread/INFO]: /recipe (give|take)
+[14:04:07] [Server thread/INFO]: /return (<value>|fail|run)
+[14:04:07] [Server thread/INFO]: /ride <target> (mount|dismount)
+[14:04:07] [Server thread/INFO]: /say <message>
+[14:04:07] [Server thread/INFO]: /schedule (function|clear)
+[14:04:07] [Server thread/INFO]: /scoreboard (objectives|players)
+[14:04:07] [Server thread/INFO]: /seed
+[14:04:07] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[14:04:07] [Server thread/INFO]: /spawnpoint [<targets>]
+[14:04:07] [Server thread/INFO]: /setworldspawn [<pos>]
+[14:04:07] [Server thread/INFO]: /spectate [<target>]
+[14:04:07] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[14:04:07] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:04:07] [Server thread/INFO]: /summon <entity> [<pos>]
+[14:04:07] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[14:04:07] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[14:04:07] [Server thread/INFO]: /teammsg <message>
+[14:04:07] [Server thread/INFO]: /tm -> teammsg
+[14:04:07] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[14:04:07] [Server thread/INFO]: /tp -> teleport
+[14:04:07] [Server thread/INFO]: /tellraw <targets> <message>
+[14:04:07] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[14:04:07] [Server thread/INFO]: /time (set|add|query)
+[14:04:07] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[14:04:07] [Server thread/INFO]: /trigger <objective> [add|set]
+[14:04:07] [Server thread/INFO]: /weather (clear|rain|thunder)
+[14:04:07] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[14:04:07] [Server thread/INFO]: /jfr (start|stop)
+[14:04:07] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[14:04:07] [Server thread/INFO]: /banlist [ips|players]
+[14:04:07] [Server thread/INFO]: /ban <targets> [<reason>]
+[14:04:07] [Server thread/INFO]: /deop <targets>
+[14:04:07] [Server thread/INFO]: /op <targets>
+[14:04:07] [Server thread/INFO]: /pardon <targets>
+[14:04:07] [Server thread/INFO]: /pardon-ip <target>
+[14:04:07] [Server thread/INFO]: /perf (start|stop)
+[14:04:07] [Server thread/INFO]: /save-all [flush]
+[14:04:07] [Server thread/INFO]: /save-off
+[14:04:07] [Server thread/INFO]: /save-on
+[14:04:07] [Server thread/INFO]: /setidletimeout <minutes>
+[14:04:07] [Server thread/INFO]: /stop
+[14:04:07] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[14:04:15] [Server thread/INFO]: Reloading!
+[14:04:15] [Server thread/INFO]: Loaded 7 recipes
+[14:04:15] [Server thread/INFO]: Loaded 1271 advancements
+[14:04:43] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[14:04:43] [Server thread/INFO]: scoreboard<--[HERE]
+[14:05:07] [User Authenticator #1/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[14:05:07] [Server thread/INFO]: Jboltle[/127.0.0.1:64829] logged in with entity id 88 at (-541.4193575820725, 62.9375, -1022.7276324379956)
+[14:05:07] [Server thread/INFO]: Jboltle joined the game
+[14:05:08] [Server thread/WARN]: Ignoring chat session from Jboltle due to missing Services public key
+[14:11:45] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.3775280374561589
+[14:11:45] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.3297609455953534
+[14:11:46] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.28199958570530725
+[14:11:46] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.399927643546107
+[14:18:43] [User Authenticator #2/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[14:18:43] [Server thread/INFO]: ChefMorgini[/10.0.0.123:57821] logged in with entity id 4663 at (-542.5394144882497, 62.9375, -1021.3280110365356)
+[14:18:43] [Server thread/INFO]: ChefMorgini joined the game
+[14:18:53] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.27778380652375745
+[14:30:03] [Server thread/INFO]: Villager cev['Leatherworker'/2141, l='ServerLevel[world]', x=-644.18, y=71.94, z=-1007.06] died, message: 'Leatherworker was slain by Zombie'
+[14:30:27] [Server thread/INFO]: /advancement (grant|revoke)
+[14:30:27] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[14:30:27] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[14:30:27] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[14:30:27] [Server thread/INFO]: /clear [<targets>]
+[14:30:27] [Server thread/INFO]: /clone (<begin>|from)
+[14:30:27] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[14:30:27] [Server thread/INFO]: /data (merge|get|remove|modify)
+[14:30:27] [Server thread/INFO]: /datapack (enable|disable|list)
+[14:30:27] [Server thread/INFO]: /debug (start|stop|function)
+[14:30:27] [Server thread/INFO]: /defaultgamemode <gamemode>
+[14:30:27] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[14:30:27] [Server thread/INFO]: /effect (clear|give)
+[14:30:27] [Server thread/INFO]: /me <action>
+[14:30:27] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[14:30:27] [Server thread/INFO]: /experience (add|set|query)
+[14:30:27] [Server thread/INFO]: /xp -> experience
+[14:30:27] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[14:30:27] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[14:30:27] [Server thread/INFO]: /forceload (add|remove|query)
+[14:30:27] [Server thread/INFO]: /function <name> [<arguments>|with]
+[14:30:27] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[14:30:27] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[14:30:27] [Server thread/INFO]: /give <targets> <item> [<count>]
+[14:30:27] [Server thread/INFO]: /help [<command>]
+[14:30:27] [Server thread/INFO]: /item (replace|modify)
+[14:30:27] [Server thread/INFO]: /kick <targets> [<reason>]
+[14:30:27] [Server thread/INFO]: /kill [<targets>]
+[14:30:27] [Server thread/INFO]: /list [uuids]
+[14:30:27] [Server thread/INFO]: /locate (structure|biome|poi)
+[14:30:27] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[14:30:27] [Server thread/INFO]: /msg <targets> <message>
+[14:30:27] [Server thread/INFO]: /tell -> msg
+[14:30:27] [Server thread/INFO]: /w -> msg
+[14:30:27] [Server thread/INFO]: /particle <name> [<pos>]
+[14:30:27] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[14:30:27] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[14:30:27] [Server thread/INFO]: /random (value|roll|reset)
+[14:30:27] [Server thread/INFO]: /reload
+[14:30:27] [Server thread/INFO]: /recipe (give|take)
+[14:30:27] [Server thread/INFO]: /return (<value>|fail|run)
+[14:30:27] [Server thread/INFO]: /ride <target> (mount|dismount)
+[14:30:27] [Server thread/INFO]: /say <message>
+[14:30:27] [Server thread/INFO]: /schedule (function|clear)
+[14:30:27] [Server thread/INFO]: /scoreboard (objectives|players)
+[14:30:27] [Server thread/INFO]: /seed
+[14:30:27] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[14:30:27] [Server thread/INFO]: /spawnpoint [<targets>]
+[14:30:27] [Server thread/INFO]: /setworldspawn [<pos>]
+[14:30:27] [Server thread/INFO]: /spectate [<target>]
+[14:30:27] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[14:30:27] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:30:27] [Server thread/INFO]: /summon <entity> [<pos>]
+[14:30:27] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[14:30:27] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[14:30:27] [Server thread/INFO]: /teammsg <message>
+[14:30:27] [Server thread/INFO]: /tm -> teammsg
+[14:30:27] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[14:30:27] [Server thread/INFO]: /tp -> teleport
+[14:30:27] [Server thread/INFO]: /tellraw <targets> <message>
+[14:30:27] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[14:30:27] [Server thread/INFO]: /time (set|add|query)
+[14:30:27] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[14:30:27] [Server thread/INFO]: /trigger <objective> [add|set]
+[14:30:27] [Server thread/INFO]: /weather (clear|rain|thunder)
+[14:30:27] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[14:30:27] [Server thread/INFO]: /jfr (start|stop)
+[14:30:27] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[14:30:27] [Server thread/INFO]: /banlist [ips|players]
+[14:30:27] [Server thread/INFO]: /ban <targets> [<reason>]
+[14:30:27] [Server thread/INFO]: /deop <targets>
+[14:30:27] [Server thread/INFO]: /op <targets>
+[14:30:27] [Server thread/INFO]: /pardon <targets>
+[14:30:27] [Server thread/INFO]: /pardon-ip <target>
+[14:30:27] [Server thread/INFO]: /perf (start|stop)
+[14:30:27] [Server thread/INFO]: /save-all [flush]
+[14:30:27] [Server thread/INFO]: /save-off
+[14:30:27] [Server thread/INFO]: /save-on
+[14:30:27] [Server thread/INFO]: /setidletimeout <minutes>
+[14:30:27] [Server thread/INFO]: /stop
+[14:30:27] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[14:33:30] [Server thread/INFO]: ChefMorgini lost connection: Timed out
+[14:33:30] [Server thread/INFO]: ChefMorgini left the game
+[14:33:36] [User Authenticator #3/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[14:33:36] [Server thread/INFO]: ChefMorgini[/10.0.0.123:57862] logged in with entity id 8569 at (-557.0637223885611, 68.5, -1046.428629952427)
+[14:33:36] [Server thread/INFO]: ChefMorgini joined the game
+[14:34:47] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[14:34:47] [Server thread/INFO]: ChefMorgini left the game
+[14:37:30] [User Authenticator #4/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[14:37:30] [Server thread/INFO]: ChefMorgini[/10.0.0.123:58488] logged in with entity id 10234 at (-548.6753083419927, 63.0, -1058.0784070732843)
+[14:37:30] [Server thread/INFO]: ChefMorgini joined the game
+[14:52:51] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[14:52:51] [Server thread/INFO]: ChefMorgini left the game
+[14:53:43] [User Authenticator #5/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[14:53:43] [Server thread/INFO]: ChefMorgini[/10.0.0.123:58601] logged in with entity id 13774 at (-543.5, 63.0, -1037.5)
+[14:53:43] [Server thread/INFO]: ChefMorgini joined the game
+[14:55:08] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[14:55:08] [Server thread/INFO]: ChefMorgini left the game
+[14:57:59] [User Authenticator #6/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[14:57:59] [Server thread/INFO]: ChefMorgini[/10.0.0.123:58623] logged in with entity id 14925 at (-482.07499998807907, 63.0, -1045.0231084776397)
+[14:57:59] [Server thread/INFO]: ChefMorgini joined the game
+[15:07:18] [Server thread/WARN]: Failed to update secure chat state for Jboltle: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[15:07:22] [Server thread/WARN]: Failed to update secure chat state for Jboltle: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[15:07:32] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[15:07:32] [Server thread/INFO]: Jboltle left the game
+[15:07:34] [User Authenticator #7/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[15:07:34] [Server thread/INFO]: Jboltle[/127.0.0.1:49819] logged in with entity id 17069 at (-542.5523422709922, 63.5625, -1038.7956299335058)
+[15:07:34] [Server thread/INFO]: Jboltle joined the game
+[15:07:36] [Server thread/INFO]: <Jboltle> gi
+[15:07:39] [Server thread/INFO]: <Jboltle> go to sleep
+[15:08:40] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[15:08:40] [Server thread/INFO]: Jboltle left the game
+[15:10:47] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[15:10:47] [Server thread/INFO]: ChefMorgini left the game
+[16:33:32] [User Authenticator #8/INFO]: UUID of player Jboltle is 1f3571b9-26bf-43bc-93f3-8a05f5081a1a
+[16:33:32] [Server thread/INFO]: Jboltle[/127.0.0.1:51043] logged in with entity id 17695 at (-568.6691402844411, 66.5, -1050.571815215592)
+[16:33:32] [Server thread/INFO]: Jboltle joined the game
+[16:33:43] [User Authenticator #9/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[16:33:45] [Server thread/INFO]: ChefMorgini[/10.0.0.123:58996] logged in with entity id 18037 at (-540.9290424559995, 68.5, -1055.5055103893515)
+[16:33:45] [Server thread/INFO]: ChefMorgini joined the game
+[16:33:55] [Server thread/WARN]: ChefMorgini moved too quickly! -9.659721852492453,1.0013359791121417,3.461523610246104
+[16:34:33] [Server thread/WARN]: ChefMorgini moved too quickly! -10.195808269576446,0.0,-0.09592418038869255
+[16:35:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:35:01] [Server thread/INFO]: --h<--[HERE]
+[16:35:02] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:35:02] [Server thread/INFO]: -h<--[HERE]
+[16:35:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:35:06] [Server thread/INFO]: --help<--[HERE]
+[16:35:07] [Server thread/INFO]: /advancement (grant|revoke)
+[16:35:07] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[16:35:07] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[16:35:07] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[16:35:07] [Server thread/INFO]: /clear [<targets>]
+[16:35:07] [Server thread/INFO]: /clone (<begin>|from)
+[16:35:07] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[16:35:07] [Server thread/INFO]: /data (merge|get|remove|modify)
+[16:35:07] [Server thread/INFO]: /datapack (enable|disable|list)
+[16:35:07] [Server thread/INFO]: /debug (start|stop|function)
+[16:35:07] [Server thread/INFO]: /defaultgamemode <gamemode>
+[16:35:07] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[16:35:07] [Server thread/INFO]: /effect (clear|give)
+[16:35:07] [Server thread/INFO]: /me <action>
+[16:35:07] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[16:35:07] [Server thread/INFO]: /experience (add|set|query)
+[16:35:07] [Server thread/INFO]: /xp -> experience
+[16:35:07] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[16:35:07] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[16:35:07] [Server thread/INFO]: /forceload (add|remove|query)
+[16:35:07] [Server thread/INFO]: /function <name> [<arguments>|with]
+[16:35:07] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[16:35:07] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[16:35:07] [Server thread/INFO]: /give <targets> <item> [<count>]
+[16:35:07] [Server thread/INFO]: /help [<command>]
+[16:35:07] [Server thread/INFO]: /item (replace|modify)
+[16:35:07] [Server thread/INFO]: /kick <targets> [<reason>]
+[16:35:07] [Server thread/INFO]: /kill [<targets>]
+[16:35:07] [Server thread/INFO]: /list [uuids]
+[16:35:07] [Server thread/INFO]: /locate (structure|biome|poi)
+[16:35:07] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[16:35:07] [Server thread/INFO]: /msg <targets> <message>
+[16:35:07] [Server thread/INFO]: /tell -> msg
+[16:35:07] [Server thread/INFO]: /w -> msg
+[16:35:07] [Server thread/INFO]: /particle <name> [<pos>]
+[16:35:07] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[16:35:07] [Server thread/INFO]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[16:35:07] [Server thread/INFO]: /random (value|roll|reset)
+[16:35:07] [Server thread/INFO]: /reload
+[16:35:07] [Server thread/INFO]: /recipe (give|take)
+[16:35:07] [Server thread/INFO]: /return (<value>|fail|run)
+[16:35:07] [Server thread/INFO]: /ride <target> (mount|dismount)
+[16:35:07] [Server thread/INFO]: /say <message>
+[16:35:07] [Server thread/INFO]: /schedule (function|clear)
+[16:35:07] [Server thread/INFO]: /scoreboard (objectives|players)
+[16:35:07] [Server thread/INFO]: /seed
+[16:35:07] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[16:35:07] [Server thread/INFO]: /spawnpoint [<targets>]
+[16:35:07] [Server thread/INFO]: /setworldspawn [<pos>]
+[16:35:07] [Server thread/INFO]: /spectate [<target>]
+[16:35:07] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[16:35:07] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[16:35:07] [Server thread/INFO]: /summon <entity> [<pos>]
+[16:35:07] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[16:35:07] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[16:35:07] [Server thread/INFO]: /teammsg <message>
+[16:35:07] [Server thread/INFO]: /tm -> teammsg
+[16:35:07] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[16:35:07] [Server thread/INFO]: /tp -> teleport
+[16:35:07] [Server thread/INFO]: /tellraw <targets> <message>
+[16:35:07] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[16:35:07] [Server thread/INFO]: /time (set|add|query)
+[16:35:07] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[16:35:07] [Server thread/INFO]: /trigger <objective> [add|set]
+[16:35:07] [Server thread/INFO]: /weather (clear|rain|thunder)
+[16:35:07] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[16:35:07] [Server thread/INFO]: /jfr (start|stop)
+[16:35:07] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[16:35:07] [Server thread/INFO]: /banlist [ips|players]
+[16:35:07] [Server thread/INFO]: /ban <targets> [<reason>]
+[16:35:07] [Server thread/INFO]: /deop <targets>
+[16:35:07] [Server thread/INFO]: /op <targets>
+[16:35:07] [Server thread/INFO]: /pardon <targets>
+[16:35:07] [Server thread/INFO]: /pardon-ip <target>
+[16:35:07] [Server thread/INFO]: /perf (start|stop)
+[16:35:07] [Server thread/INFO]: /save-all [flush]
+[16:35:07] [Server thread/INFO]: /save-off
+[16:35:07] [Server thread/INFO]: /save-on
+[16:35:07] [Server thread/INFO]: /setidletimeout <minutes>
+[16:35:07] [Server thread/INFO]: /stop
+[16:35:07] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[16:35:19] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:35:19] [Server thread/INFO]: debug<--[HERE]
+[16:35:42] [Server thread/INFO]: ChefMorgini lost connection: Timed out
+[16:35:42] [Server thread/INFO]: ChefMorgini left the game
+[16:35:58] [User Authenticator #10/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[16:35:59] [Server thread/INFO]: ChefMorgini[/10.0.0.123:59042] logged in with entity id 18367 at (-567.965114445388, 66.5, -1050.464208604125)
+[16:35:59] [Server thread/INFO]: ChefMorgini joined the game
+[16:36:31] [Server thread/INFO]: ChefMorgini lost connection: Timed out
+[16:36:31] [Server thread/INFO]: ChefMorgini left the game
+[16:36:43] [User Authenticator #11/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[16:36:43] [Server thread/INFO]: ChefMorgini[/10.0.0.123:59046] logged in with entity id 18506 at (-555.380877972098, 63.0, -1053.6020193032666)
+[16:36:43] [Server thread/INFO]: ChefMorgini joined the game
+[16:40:58] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[16:40:58] [Server thread/INFO]: ChefMorgini left the game
+[16:46:41] [Server thread/WARN]: Horse (vehicle of Jboltle) moved wrongly! 0.48880772789635785
+[17:12:31] [User Authenticator #12/INFO]: UUID of player ChefMorgini is 85296ec7-bef7-4bf0-8668-678ba386738c
+[17:12:32] [Server thread/INFO]: ChefMorgini[/10.0.0.123:59994] logged in with entity id 30306 at (-558.6914221716165, 63.0, -1054.5333330040912)
+[17:12:32] [Server thread/INFO]: ChefMorgini joined the game
+[17:15:36] [Server thread/INFO]: ChefMorgini has made the advancement [We Need to Go Deeper]
+[17:15:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2272ms or 45 ticks behind
+[17:19:11] [Server thread/INFO]: ChefMorgini lost connection: Disconnected
+[17:19:11] [Server thread/INFO]: ChefMorgini left the game
+[17:19:33] [Server thread/INFO]: Jboltle has made the advancement [We Need to Go Deeper]
+[17:22:25] [Server thread/INFO]: Jboltle has made the advancement [A Terrible Fortress]
+[17:27:09] [Server thread/INFO]: Villager cev['Villager'/32667, l='ServerLevel[world]', x=-675.28, y=58.17, z=-1046.71] died, message: 'Villager was slain by Zombie'
+[17:27:11] [Server thread/INFO]: Jboltle lost connection: Disconnected
+[17:27:11] [Server thread/INFO]: Jboltle left the game
+[17:27:14] [Server thread/INFO]: Stopping the server
+[17:27:14] [Server thread/INFO]: Stopping server
+[17:27:14] [Server thread/INFO]: Saving players
+[17:27:14] [Server thread/INFO]: Saving worlds
+[17:27:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:27:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:27:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:27:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:27:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:27:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:27:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

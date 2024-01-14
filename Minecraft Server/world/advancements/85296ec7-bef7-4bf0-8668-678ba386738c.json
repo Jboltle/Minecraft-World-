@@ -116,17 +116,18 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-01-14 14:53:56 -0600",
       "mutton": "2023-12-19 21:12:49 -0600",
-      "apple": "2023-12-21 11:32:30 -0600",
       "chicken": "2023-12-19 22:25:40 -0600",
       "bread": "2023-12-19 21:25:08 -0600",
       "cookie": "2023-12-26 23:34:12 -0600",
       "cooked_mutton": "2023-12-22 14:52:35 -0600",
-      "potato": "2023-12-21 11:32:26 -0600",
-      "cooked_cod": "2024-01-12 15:51:48 -0600",
       "sweet_berries": "2023-12-19 22:22:32 -0600",
       "cooked_beef": "2023-12-30 21:20:46 -0600",
       "porkchop": "2023-12-19 22:27:38 -0600",
+      "apple": "2023-12-21 11:32:30 -0600",
+      "potato": "2023-12-21 11:32:26 -0600",
+      "cooked_cod": "2024-01-12 15:51:48 -0600",
       "carrot": "2023-12-26 22:53:15 -0600"
     },
     "done": false
@@ -2063,6 +2064,36 @@
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2024-01-14 13:49:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2024-01-14 17:15:38 -0600"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-01-14 17:15:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-01-14 17:15:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-01-14 17:17:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-01-14 17:17:35 -0600"
     },
     "done": true
   },
