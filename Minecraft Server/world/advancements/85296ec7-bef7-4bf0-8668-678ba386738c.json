@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2023-12-19 21:53:10 -0600",
+      "minecraft:beach": "2024-01-14 13:40:51 -0600",
       "minecraft:dark_forest": "2023-12-19 21:05:54 -0600",
       "minecraft:forest": "2023-12-19 21:20:56 -0600",
       "minecraft:taiga": "2023-12-19 21:55:02 -0600",
@@ -2038,6 +2039,30 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2023-12-30 21:32:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2024-01-14 13:18:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2024-01-14 13:18:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2024-01-14 13:49:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-01-14 13:49:16 -0600"
     },
     "done": true
   },
